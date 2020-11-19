@@ -1,0 +1,29 @@
+{
+  "name": "autoupdateagain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinimay1992/autoupdatetest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinimay1992/autoupdatetest/issues"
+  },
+  "homepage": "https://github.com/ashwinimay1992/autoupdatetest#readme",
+  "devDependencies": {
+    "electron": "^11.0.1",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.5"
+  }
+}
